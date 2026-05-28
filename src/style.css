@@ -314,6 +314,22 @@ button:focus {
   justify-content: center !important;
   padding-top: 9em !important;
 }
+.myAvtar img {
+  width: 100%;
+  max-width: 380px;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+  border: 5px solid #c770f0;
+  box-shadow: 0 0 25px #c770f0;
+  transition: all 0.3s ease-in-out;
+}
+
+.myAvtar img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 35px #d28cff;
+}
 
 @media (max-width: 767px) {
   .myAvtar {

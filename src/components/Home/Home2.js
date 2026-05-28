@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -23,28 +23,27 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Full Stack Development and DevOps technologies including Jenkins, Docker, Git, GitHub, CI/CD pipelines, and cloud-based deployment workflows{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I enjoy building scalable applications while managing efficient development and deployment processes.
               <br />
               <br />
-              My key areas of interest include developing
+              My key areas of interest include 
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Full Stack Development, DevOps automation, cloud deployment workflows, CI/CD pipeline implementation,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and building scalable and high-performance applications.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+             You would often find me participating in
+<i>
+  <b className="purple"> hackathons</b>
+</i>
+, exploring modern technologies, building innovative real-world projects, and continuously improving my skills in Full Stack Development and DevOps practices.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
