@@ -8,37 +8,63 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
-            <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Hi everyone! I'm{" "}
+            <span className="purple">Jyotika Mittal</span> from{" "}
+            <span className="purple">Sirsa, Haryana, India</span>.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I am currently pursuing my{" "}
+            <span className="purple">B.Tech in Computer Engineering</span> and
+            am in my <span className="purple">final year</span> at{" "}
+            <span className="purple">
+              Thapar Institute of Engineering & Technology
+            </span>.
+            <br />
+            <br />
+            I am passionate about building impactful software solutions and
+            continuously exploring technologies in{" "}
+            <span className="purple">
+              Full Stack Development, DevOps, Cloud Computing, and Artificial
+              Intelligence
+            </span>
+            .
+            <br />
+            <br />
+            I enjoy participating in{" "}
+            <span className="purple">hackathons</span>, collaborating with
+            diverse teams, solving real-world challenges, and transforming
+            innovative ideas into practical solutions. Working in teams has
+            strengthened my communication, leadership, and problem-solving
+            abilities.
+            <br />
+            <br />
+            Beyond academics and technology, I love engaging in activities that
+            keep me creative, curious, and energized:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Cooking and experimenting with new recipes 🍳
             </li>
+
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Travelling and exploring new places and cultures
+              ✈️
             </li>
+
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Adventure activities and outdoor experiences 🏔️
             </li>
+
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Keep learning, keep building, and keep exploring new possibilities."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+
+          <footer className="blockquote-footer">
+            Jyotika Mittal
+          </footer>
         </blockquote>
       </Card.Body>
     </Card>
