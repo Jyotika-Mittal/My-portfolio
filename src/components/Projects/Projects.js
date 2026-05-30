@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Clinical-Trials"
+              description="Clinical Trials AI Recruiter (MedMatch AI) Volunteer recruitment AI for clinical trials. Uses RAG (Retrieval-Augmented Generation) on trial-criteria PDFs + volunteer CSV to return fast eligibility counts, shortlists, and 2–3 sentence answers."
+              ghLink="https://github.com/Jyotika-Mittal/clinicaltrials/tree/main"
+              demoLink="https://clinicaltrials-blue.vercel.app/"
             />
           </Col>
 
