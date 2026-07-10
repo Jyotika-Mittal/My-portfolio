@@ -2,26 +2,29 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
+
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
+
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* Project 1 */}
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -32,60 +35,39 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* Project 2 */}
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Clinical-Trials"
-              description="Clinical Trials AI Recruiter (MedMatch AI) Volunteer recruitment AI for clinical trials. Uses RAG (Retrieval-Augmented Generation) on trial-criteria PDFs + volunteer CSV to return fast eligibility counts, shortlists, and 2–3 sentence answers."
+              description="Clinical Trials AI Recruiter (MedMatch AI) is a volunteer recruitment platform that uses RAG on trial-criteria PDFs and volunteer CSV data to quickly return eligibility counts, candidate shortlists, and concise AI-generated answers."
               ghLink="https://github.com/Jyotika-Mittal/clinicaltrials/tree/main"
               demoLink="https://clinicaltrials-blue.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* Project 3 */}
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Nexus-Plcement-Portal"
-              description="Placement Portal is an AI-powered campus recruitment platform that connects students, recruiters, and administrators through a unified system. It features ATS resume scoring, personalized job recommendations,application tracking, and recruitment management to streamline the placement process and improve employability outcomes."
-
+              title="Nexus-Placement-Portal"
+              description="An AI-powered campus recruitment platform connecting students, recruiters, and administrators. Features ATS resume scoring, personalized job recommendations, application tracking, and recruitment management to streamline campus placements."
               ghLink="https://github.com/Jyotika-Mittal/Nexus_portal"
-              demoLink="https://nexus-portal-1.onrender.com"              
+              demoLink="https://nexus-portal-1.onrender.com"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* Project 4 */}
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
               title="Spendly"
-              description="Spendly is a full-stack AI-powered expense tracker that auto-detects spending categories, visualizes monthly insights, and flags overspending in real time. It also helps users set and track savings goals with visual progress and deadline reminders."
+              description="Spendly is a full-stack AI-powered expense tracker that automatically categorizes expenses, provides insightful analytics, detects overspending, and helps users achieve savings goals through progress tracking and reminders."
               ghLink="https://github.com/Jyotika-Mittal/New-expense"
               demoLink="https://new-expense-1-i04d.onrender.com"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
