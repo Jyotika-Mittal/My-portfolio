@@ -59,7 +59,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="Spendly"
               description="Spendly is a full-stack AI-powered expense tracker that auto-detects spending categories, visualizes monthly insights, and flags overspending in real time. It also helps users set and track savings goals with visual progress and deadline reminders."
               ghLink="https://github.com/Jyotika-Mittal/New-expense"
               demoLink="https://new-expense-1-i04d.onrender.com"
