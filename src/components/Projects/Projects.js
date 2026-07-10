@@ -50,8 +50,8 @@ function Projects() {
               title="Nexus-Plcement-Portal"
               description="Placement Portal is an AI-powered campus recruitment platform that connects students, recruiters, and administrators through a unified system. It features ATS resume scoring, personalized job recommendations,application tracking, and recruitment management to streamline the placement process and improve employability outcomes."
 
-              ghLink="https://github.com/Jyotika-Mittal/Nexus_Placement-Portal"
-              demoLink="https://nexus-placement-portal.onrender.com/"              
+              ghLink="https://github.com/Jyotika-Mittal/Nexus_portal"
+              demoLink="https://nexus-portal-1.onrender.com"              
             />
           </Col>
 
