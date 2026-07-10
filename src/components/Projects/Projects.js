@@ -60,9 +60,9 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              description="Spendly is a full-stack AI-powered expense tracker that auto-detects spending categories, visualizes monthly insights, and flags overspending in real time. It also helps users set and track savings goals with visual progress and deadline reminders."
+              ghLink="https://github.com/Jyotika-Mittal/New-expense"
+              demoLink="https://new-expense-1-i04d.onrender.com"
             />
           </Col>
 
